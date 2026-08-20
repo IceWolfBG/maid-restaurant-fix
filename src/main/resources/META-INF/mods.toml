@@ -1,0 +1,48 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="maid_restaurant_fix"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+logoFile="logo.png"
+description='''
+${mod_description}
+'''
+
+[[dependencies.maid_restaurant_fix]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.maid_restaurant_fix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.maid_restaurant_fix]]
+    modId="maid_restaurant"
+    mandatory=true
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.maid_restaurant_fix]]
+    modId="touhou_little_maid"
+    mandatory=true
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.maid_restaurant_fix]]
+    modId="kaleidoscope_cookery"
+    mandatory=false
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
