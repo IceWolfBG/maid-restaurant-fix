@@ -3,3 +3,8 @@ build/
 run/
 *.class
 *.log
+
+libs/
+*.txt
+out.txt
+build_*.txt

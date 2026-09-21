@@ -17,12 +17,17 @@
 ### 3. 菜单去重
 女仆餐厅菜单中重复的点单项（如熟兔肉*1、熟兔肉*2、熟兔肉*3...）进行合并，只保留 *1、*4、*9 三种数量，减少菜单冗余。
 
+### 4. 点餐菜单拼音搜索（可选）
+安装 [Just Enough Characters (JEC)](https://www.curseforge.com/minecraft/mc-mods/just-enough-characters) 后，女仆餐厅点餐菜单的搜索框支持汉语拼音搜索（如输入 "zr" 或 "zhurou" 可匹配"猪肉/熟猪排"等）。本模组**软依赖** JEC，不打包字库；未安装 JEC 时自动回退为原版的原文（中文/英文）匹配，不影响使用。
+
 ## 依赖
 
 - Minecraft 1.20.1
 - Forge 47.2.0+
 - 车万女仆 (Touhou Little Maid) 1.5.3+
 - 女仆餐厅 (Maid Restaurant) 0.2.9+
+- （可选）森罗物语：厨房 (Kaleidoscope Cookery)
+- （可选）Just Enough Characters (JEC)：提供点餐菜单拼音搜索
 
 ## 许可
 
