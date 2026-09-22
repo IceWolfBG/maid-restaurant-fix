@@ -1,10 +1,26 @@
+# ===== Gradle / 构建产物 =====
 .gradle/
 build/
 run/
 *.class
 *.log
 
+# ===== 本地依赖 jar（需自行放入各版本工程的 libs/，不入库）=====
 libs/
+
+# ===== 临时输出 =====
 *.txt
 out.txt
 build_*.txt
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.eclipse/
+bin/
