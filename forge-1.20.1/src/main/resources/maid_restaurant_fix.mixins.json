@@ -6,6 +6,7 @@
   "refmap": "maid_restaurant_fix.refmap.json",
   "mixins": [
     "StockpotCookTaskMixin",
+    "OvenCookTaskMixin",
     "MaidCookingTaskMixin",
     "MaidStateManagerMixin",
     "MaidGetFromStorageTaskMixin"
